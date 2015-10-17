@@ -1,0 +1,28 @@
+{
+    "name": "okapon/DoctrineAdditionalType",
+    "type": "library",
+    "description": "A set of types to Doctrine 2 to provide additional mapping types.",
+    "keywords": ["doctrine", "type", "DBAL"],
+    "homepage": "https://github.com/okapon/DoctrineAdditionalType",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yuichi Okada",
+            "email": "yuuichi177@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~5.3,>=5.3.2"
+    },
+    "require-dev": {
+        "doctrine/orm": " ~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Okapon\\DoctrineAdditionalType\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { "Okapon\\DoctrineAdditionalType\\Tests\\": "tests/" }
+    }
+}
